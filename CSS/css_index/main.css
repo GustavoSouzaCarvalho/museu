@@ -1,0 +1,128 @@
+.faixa.laranja {
+  background-color: #D08600;
+  width: 1346px;
+  height: 103px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.faixa h3 {
+  font-size: 64px;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.artistas-locais img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 30px 0;
+}
+
+/*Entrada*/
+section {
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 40px 20px;
+}
+
+h2 {
+    font-size: 110px;
+    color: #B97700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#entrada {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 30px;
+    float: right;
+}
+
+p, address {
+    font-size: 48px;
+    text-align: center;
+    clear: both;
+}
+
+.bandeirolas {
+    margin-bottom: 80px;
+}
+
+.conheca-museu {
+    text-align: center;
+    position: relative;
+}
+
+.conheca-museu h2 {
+    font-family: 'Homenaje', sans-serif;
+    color: black;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.conheca-museu .descricao {
+    font-family: 'Homenaje', sans-serif;
+    font-size: 48px;
+    margin-bottom: 0;
+    padding-bottom: 80px;
+}
+
+/* FUNDO AMARELO*/
+.fundo-amarelo {
+    background-color: #FFDD6D;
+    padding: 40px;
+    width: 100%;
+    position: relative;
+    min-height: 500px; 
+}
+
+.contato {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rede-social {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.rede-social p {
+    font-family: 'Homenaje', sans-serif;
+    font-size: 32px;
+    margin: 0;
+}
+
+.logos-container {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: flex-end;
+    gap: 30px;
+    padding: 0 40px;
+}
+
+.esboco-museu {
+    margin-right: auto; 
+    height: 300px;
+}
+
+.logos-parceiros {
+    display: flex;
+    gap: 30px;
+    align-items: left;
+    height: 175px;
+}
+
+.logos-parceiros img {
+    object-fit: contain;
+}

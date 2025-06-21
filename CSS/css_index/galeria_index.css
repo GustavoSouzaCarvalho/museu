@@ -1,0 +1,48 @@
+
+.galeria-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.2fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 16px;
+    max-width: 960px; 
+    width: 90%; 
+    margin: 50px auto; 
+}
+
+.galeria-item {
+    border: 5px solid black;
+    overflow: hidden;
+}
+
+.galeria-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/*Posicionamento*/
+.item-aves {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.item-casa-flutuante {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.item-insetos {
+    grid-column: 3 / 4;
+    grid-row: 1 / 3;
+}
+
+.item-utensilios {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.item-araras {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
