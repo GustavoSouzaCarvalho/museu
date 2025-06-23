@@ -175,3 +175,9 @@ p, address {
     height: 300px;
     margin-bottom: -30px;
 }
+
+.rede-social a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}

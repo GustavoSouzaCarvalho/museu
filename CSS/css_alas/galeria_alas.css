@@ -1,0 +1,33 @@
+.salas-image {
+    width: 462px;
+    height: 422px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 130px;
+    justify-items: center;
+    margin-top: 200px;
+}
+
+.gallery-item img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    margin-top: 10px;
+}
+
+.gallery-title {
+    font-family: 'Homenaje', sans-serif;
+    font-size: 48px;
+    color: #000000;
+    margin-bottom: 10px;
+    margin-top: 0;
+    text-transform: uppercase;
+}
