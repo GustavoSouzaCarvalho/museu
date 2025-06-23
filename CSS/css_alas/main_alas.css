@@ -34,7 +34,7 @@
   padding: 40px;
   width: 100vw;
   position: relative;
-  min-height: 500px;
+  min-height: 400px;
   overflow: hidden;
   margin-top: 200px;
 }
@@ -56,8 +56,12 @@
 
 .rede-social p {
     font-family: 'Homenaje', sans-serif;
-    font-size: 32px;
+    font-size: 28px;
     margin: 0;
+}
+
+.rede-social img {
+  height: 30px;
 }
 
 .logos-container {
@@ -71,7 +75,7 @@
 }
 
 .esboco-museu {
-    height: 350px;
+    height: 300px;
     left: 0;
     bottom: 0;
 }
