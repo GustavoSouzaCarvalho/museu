@@ -22,6 +22,16 @@ nav ul {
     width: 100%;
 }
 
+nav ul li a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.selecionado {
+    color: #B97700;
+}
+
 /* Imagem do museu */
 .museu-image img {
     width: 100%;
