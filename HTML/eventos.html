@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Homenaje&family=Josefin+Sans:wght@400;700&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Homenaje&family=Josefin+Sans:wght@400;700&family=Rufina:wght@400;700&display=swap">
     <link rel="stylesheet" href="../CSS/css_eventos/header_eventos.css">
+    <link rel="stylesheet" href="../CSS/css_eventos/main_eventos.css">
+    <link rel="stylesheet" href="../CSS/css_eventos/anuncios_eventos.css">
+    <link rel="stylesheet" href="../CSS/css_eventos/exposicao_eventos.css">
 </head>
 <body>
     <header>
@@ -14,10 +17,101 @@
             <ul>
                 <li><a href="../index.html">PÁGINA INICIAL</a></li>
                 <li class="selecionado"><a href="eventos.html">EVENTOS</a></li>
-                <li>CONHEÇA O MUSEU</li>
-                <li><a href="alas.html">ALAS DO MUSEU</a></li>
+                <li><a href="alas.html">EXPONHA SUA ARTE</a></li>
             </ul>
         </nav>
-    </header>    
+        <div class="imagem-entrada-evento">
+            <img src="../ASSETS/eventos/foto-inicial-eventos.png" alt="Imagem de evento">
+        </div>
+    </header> 
+    <main>
+        <section class="artista-local">
+            <h2>MUSEU MUNICIPAL FRANCISCO COELHO</h2>
+            <p>VOCÊ É UM ARTISTA LOCAL E QUER <br> EXPOR SUA ARTE NO MMFC?</p>
+            <button class="btn-expor">Exponha sua arte aqui</button>
+        </section>
+
+        <div class="titulo-retangulo-faixa">
+            <h1>PARA ESTE MÊS</h1>
+        </div>
+
+        <section class="cartoes-eventos-container">
+            <div class="cartoes-eventos">
+                <div class="cartao-evento">
+                    <img src="../ASSETS/eventos/vem-coisa-ai.png" alt="Vem Coisa Nova Por Aí 19.06">
+                </div>
+                <div class="cartao-evento cartao-agendamento">
+                    <img src="../ASSETS/eventos/agendamento.png" alt="Agendamentos Abertos - Vem com a gente!">
+                </div>
+                <div class="cartao-evento">
+                    <img src="../ASSETS/eventos/vem-coisa-ai.png" alt="Vem Coisa Nova Por Aí 19.06">
+                </div>
+            </div>
+        </section>
+
+        <div class="titulo-retangulo-faixa">
+            <h1>DESTAQUES DA SEMANA</h1>
+        </div>
+
+        <section class="cartoes-eventos-container">
+            <div class="cartoes-eventos">
+                <div class="cartao-evento">
+                    <img src="../ASSETS/eventos/arraia.png" alt="Arraiá do Chico">
+                </div>
+                <div class="cartao-evento cartao-agendamento">
+                    <img src="../ASSETS/eventos/preparacao.png" alt="Preparação para evento">
+                </div>
+                <div class="cartao-evento">
+                    <img src="../ASSETS/eventos/arraia.png" alt="Arraiá do Chico">
+                </div>
+            </div>
+        </section>
+
+        <div class="titulo-retangulo-faixa">
+            <h1>EXPOSIÇÕES TEMPORÁRIAS</h1>
+        </div>
+        <section class="exposicao-rio-mata-casa">
+            <h1 class="titulo-exposicao">O Rio A Mata E A Casa</h1>
+
+            <div class="container-exposicao">
+                <div class="coluna-esquerda">
+                    <img src="../ASSETS/eventos/terço-na-janela.png" alt="Idosa na janela" class="img-expo" id="img-terco">
+                    <p class="idealizacao">Idealizada<br>por Lanúzia<br>Lobo</p>
+                    <p class="descricao-final">A mostra propõe uma reflexão sobre o protagonismo feminino na região, 
+                    por meio de obras que dialogam com o cotidiano das mulheres que constroem a identidade de Marabá.</p>
+                </div>
+
+                <div class="coluna-centro">
+                    <p class="descricao-exposicao">A mostras integram a<br>programação especial de 112<br>anos de Marabá</p>
+                    <img src="../ASSETS/eventos/beju.png" alt="Mulher fazendo beiju" class="img-expo" id="img-beju">
+                </div>
+
+                <div class="coluna-direita">
+                    <img src="../ASSETS/eventos/homem-olhando-quadros.png" alt="Visitante olhando obras" class="img-expo" id="img-homem">
+                </div>
+            </div>
+        </section>
+        <div class="fundo-amarelo">
+            <div class="contato">
+                <div class="rede-social">
+                    <a href="https://www.instagram.com/museumaraba/"><img src="../ICON/instagram.png" alt="Instagram"></a>
+                    <a href="https://www.instagram.com/museumaraba/"><p>@museumaraba</p></a>
+                </div>
+                <div class="rede-social">
+                    <img src="../ICON/email.png" alt="Email">
+                    <p>museumarabamidias@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="logos-container">
+                <img class="esboco-museu" src="../ASSETS/rodape/esboço-museu.png" alt="Esboço do Museu">
+                <div class="logos-parceiros">
+                    <img src="../ASSETS/rodape/casa-da-cultura.png" alt="Casa da Cultura">
+                    <img class="SBM" src="../ASSETS/rodape/SBM.png" alt="Sistema Brasileiro de Museus">
+                    <img class="ministerio-da-cultura" src="../ASSETS/rodape/ministerio-da-cultura.png" alt="Ministério da Cultura">
+                </div>
+            </div>
+        </div>
+    </main>   
 </body>
 </html>

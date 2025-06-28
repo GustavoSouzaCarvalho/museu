@@ -1,31 +1,47 @@
-.alas-section {
-    padding: 60px 20px;
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/*Direciona Cadastro*/
+.artista-local {
     text-align: center;
+    padding: 60px 20px;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.alas-section h2 {
+.artista-local h2 {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 64px;
+    font-size: 54px;
     color: #B97700;
-    margin-bottom: 30px;
-}
-
-.alas-section p {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 40px;
-    color: #000000;
     margin-bottom: 40px;
-    line-height: 1.4;
 }
 
-.salas-image {
-    width: 462px;
-    height: 422px;
-    object-fit: contain;
-    display: block;
-    margin: 0 auto;
+.artista-local p {
+    font-family: 'Homenaje', sans-serif;
+    font-size: 41px;
+    color: #000000;
+    margin-bottom: 60px;
+    line-height: 1.2;
+}
+
+.btn-expor {
+    width: 504px;
+    height: 84px;
+    background-color: #D08600;
+    border-radius: 53px;
+    border: none;
+    font-family: 'Homenaje', sans-serif;
+    font-size: 50px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 100px;
+}
+
+.btn-expor:hover {
+    background-color: #B97700;
 }
 
 /* FUNDO AMARELO*/
@@ -36,7 +52,6 @@
   position: relative;
   min-height: 400px;
   overflow: hidden;
-  margin-top: 200px;
 }
 
 .contato {
@@ -114,4 +129,3 @@
   color: inherit;
   display: block;
 }
-
