@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../CSS/css_expor_arte/header_expor_arte.css">
+    <link rel="stylesheet" href="../../CSS/css_expor_arte/main_expor_arte.css">
+    <link rel="stylesheet" href="../../CSS/css_expor_arte/informacoes_expor_arte.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Homenaje&family=Josefin+Sans:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600&display=swap">
+    <title>Expor Arte</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li> <a href="../../index.html">PÁGINA INICIAL</a></li>
+                <li><a href="../eventos.html">EVENTOS</a></li>
+                <li class="selecionado"><a href="expor_arte.html">EXPONHA SUA ARTE</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="titulo-museu">
+                <img src="../../ICON/seta-preta.png" alt="Seta" class="seta-img">
+                <h1>MUSEU MUNICIPAL FRANCISCO COELHO</h1>
+            </div>
+            <div class="container-banner">
+                <img src="../../ASSETS/expor_arte/expor-1.png" alt="Expor Arte" class="expor-img">
+                <h2 class="texto-banner">Tenha a sua arte <br> exposta no museu!</h2>
+            </div>
+        </section>
+
+        <section class="formulario-container">
+            <div class="formulario-box">
+                <h1 class="titulo-informacoes">Informações</h1>
+                <h2 class="subtitulo">Preencha com seus dados</h2>
+                
+                <form class="formulario" action="./portifolio.html" method="get">
+                    <input type="text" id="nome" placeholder="Nome Completo" required>
+                    <input type="text" id="cpf" placeholder="CPF" required>
+                    <input type="text" id="cep" placeholder="CEP" required>
+                    <input type="text" id="endereco" placeholder="Endereço" required>
+                    <input type="tel" id="telefone" placeholder="Telefone" required>
+                    <input type="email" id="email" placeholder="E-mail" required>
+                    
+                    <div class="separador"></div>
+                    
+                    <button type="submit" class="botao-proximo">PRÓXIMO</button>
+                    <p class="texto-confirmacao">Analisaremos os seus dados e entraremos em contato assim que possível!</p>
+                </form>
+            </div>
+        </section>
+        <div class="fundo-amarelo">
+            <div class="contato">
+                <div class="rede-social">
+                    <a href="https://www.instagram.com/museumaraba/"><img src="../../ICON/instagram.png" alt="Instagram"></a>
+                    <a href="https://www.instagram.com/museumaraba/"><p>@museumaraba</p></a>
+                </div>
+                <div class="rede-social">
+                    <img src="../../ICON/email.png" alt="Email">
+                    <p>museumarabamidias@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="logos-container">
+                <img class="esboco-museu" src="../../ASSETS/rodape/esboço-museu.png" alt="Esboço do Museu">
+                <div class="logos-parceiros">
+                    <img src="../../ASSETS/rodape/casa-da-cultura.png" alt="Casa da Cultura">
+                    <img class="SBM" src="../../ASSETS/rodape/SBM.png" alt="Sistema Brasileiro de Museus">
+                    <img class="ministerio-da-cultura" src="../../ASSETS/rodape/ministerio-da-cultura.png" alt="Ministério da Cultura">
+                </div>
+            </div>
+        </div>
+    </main>
+    </body>
+</html>

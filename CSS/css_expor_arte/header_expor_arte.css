@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0;
+    background-color: #FFFFFF; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px 0;
+    list-style: none;
+    font-family: 'Homenaje', sans-serif;
+    font-size: 48px;
+    margin: 0;
+    width: 100%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.selecionado {
+    color: #B97700;
+}

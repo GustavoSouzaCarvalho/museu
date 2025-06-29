@@ -1,0 +1,110 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.exposicao-rio-mata-casa {
+  padding: 60px 40px;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.titulo-exposicao {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 64px;
+  color: #B97700;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.container-exposicao {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.coluna-esquerda,
+.coluna-centro,
+.coluna-direita {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.coluna-esquerda {
+  width: 30%;
+  position: relative;
+  overflow: visible;
+}
+
+.coluna-centro {
+  width: 40%;
+  position: relative;
+  overflow: visible;
+}
+
+.coluna-direita {
+  width: 25%;
+  position: relative;
+  z-index: 1;
+}
+
+.img-expo {
+  border: 5px solid black;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+#img-terco {
+  width: 100%;
+  max-width: 483px;
+  height: auto;
+}
+
+#img-beju {
+  width: 100%;
+  max-width: 477px;
+  height: auto;
+}
+
+#img-homem {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin-top: 920px;
+}
+
+.idealizacao {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 75px;
+  text-align: left;
+  line-height: 1.1;
+  margin-top: 120px;
+  margin-bottom: 60px;
+}
+
+.descricao-exposicao {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 64px;
+  text-align: left;
+  margin-bottom: 30px;
+  max-width: 100%;
+  width: calc(100% + 300px);
+  max-width: none;
+  margin-right: -300px;
+  z-index: 2;
+}
+
+.descricao-final {
+  font-family: 'Homenaje', sans-serif;
+  font-size: 64px;
+  text-align: justify;
+  width: calc(70% + 500px);
+  max-width: none;
+  margin-right: -400px;
+  z-index: 2;
+}

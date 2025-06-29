@@ -1,0 +1,131 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/*Direciona Cadastro*/
+.artista-local {
+    text-align: center;
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.artista-local h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 54px;
+    color: #B97700;
+    margin-bottom: 40px;
+}
+
+.artista-local p {
+    font-family: 'Homenaje', sans-serif;
+    font-size: 41px;
+    color: #000000;
+    margin-bottom: 60px;
+    line-height: 1.2;
+}
+
+.btn-expor {
+    width: 504px;
+    height: 84px;
+    background-color: #D08600;
+    border-radius: 53px;
+    border: none;
+    font-family: 'Homenaje', sans-serif;
+    font-size: 50px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 100px;
+}
+
+.btn-expor:hover {
+    background-color: #B97700;
+}
+
+/* FUNDO AMARELO*/
+.fundo-amarelo {
+  background-color: #FFDD6D;
+  padding: 40px;
+  width: 100vw;
+  position: relative;
+  min-height: 400px;
+  overflow: hidden;
+}
+
+.contato {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rede-social {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.rede-social p {
+    font-family: 'Homenaje', sans-serif;
+    font-size: 28px;
+    margin: 0;
+}
+
+.rede-social img {
+  height: 30px;
+}
+
+.logos-container {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: flex-end;
+    padding: 0;
+}
+
+.esboco-museu {
+    height: 300px;
+    left: 0;
+    bottom: 0;
+}
+
+.logos-parceiros {
+    display: flex;
+    gap: 50px; 
+    align-items: flex-end;
+    height: 175px;
+    flex-grow: 1; 
+    justify-content: flex-start;
+}
+
+.logos-parceiros img {
+    object-fit: contain;
+    height: auto;
+}
+
+.logos-parceiros img:first-child { 
+    height: 175px;
+}
+
+.logos-parceiros img:nth-child(2) { 
+    height: 80px;
+    margin-bottom: 50px;
+    padding-left: 35px;
+}
+
+.logos-parceiros img:last-child {
+    height: 300px;
+    margin-bottom: -30px;
+}
+
+.rede-social a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
