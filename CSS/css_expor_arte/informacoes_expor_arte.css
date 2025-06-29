@@ -35,36 +35,59 @@
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    gap: 40px;
+    gap: 30px; 
+    max-width: 1245px;
+    margin: 0 auto;
 }
 
-.campo-input {
-    position: relative;
-    margin-bottom: 40px;
-    width: 1250px;
-}
-
-.input-label {
-    font-family: 'Homenaje', sans-serif;
-    font-size: 32px;
-    color: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    left: 30px;
-    top: 35px;
-    transition: all 0.3s ease;
-    pointer-events: none;
-}
-
-.input-texto {
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
     width: 100%;
     height: 103px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.20); 
     border: 2px solid #B97700;
     border-radius: 50px;
-    padding: 35px 30px 0;
+    padding: 0 40px; 
     font-family: 'Homenaje', sans-serif;
     font-size: 32px;
+    color: #333; 
+}
+
+textarea {
+    width: 100%;
+    height: 160px;
     box-sizing: border-box;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.20);
+    border: 2px solid #B97700;
+    border-radius: 50px; 
+    padding: 30px 40px; 
+    font-family: 'Homenaje', sans-serif;
+    font-size: 32px;
+    color: #333;
+    resize: vertical;
+}
+
+::placeholder {
+    font-family: 'Homenaje', sans-serif;
+    font-size: 32px;
+    color: rgba(0, 0, 0, 0.50); 
+}
+
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    outline: none;
+    border-width: 3px;
+    border-color: #D08600;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .botao-proximo {
@@ -82,11 +105,11 @@
     align-items: center;
     justify-content: center;
     transition: background-color 0.3s;
-    margin-top: -20px;
+    margin-top: 20px;
 }
 
 .botao-proximo:hover {
-    background-color: #D08600;
+    background-color: #A06800; 
 }
 
 .texto-confirmacao {
@@ -94,33 +117,4 @@
     font-size: 38px;
     text-align: center;
     margin-top: 30px;
-}
-
-.input-texto::placeholder {
-    color: transparent;
-}
-
-.input-texto:focus {
-    outline: none;
-    border-width: 3px;
-    border-color: #D08600;
-}
-
-.input-texto:focus + .input-label,
-.input-texto:not(:empty) + .input-label {
-    opacity: 0;
-    transform: translateY(-10px);
-    transition: all 0.3s ease;
-}
-
-.input-label {
-    font-family: 'Homenaje', sans-serif;
-    font-size: 32px;
-    color: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    left: 30px;
-    top: 35px;
-    transition: all 0.3s ease;
-    pointer-events: none;
-    opacity: 1; 
 }
