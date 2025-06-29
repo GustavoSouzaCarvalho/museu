@@ -2,8 +2,304 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
+}
+.menu div {
+  overflow: hidden;
 }
 
+.menu{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px 50px;
+  padding: 20px;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.menu div img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.menu div img:hover {
+  transform: scale(1.05);
+}
+
+img.sem-efeito{
+   transform: none !important;
+  transition: none !important;
+}
+
+.sala{
+  text-align: center;
+  font-family: 'Homenaje', sans-serif;
+  font-size: 20px;
+}
+
+.sala p{
+  margin-bottom: 10px;
+}
+
+
+.data-local {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px; 
+  margin-top: 20px;
+}
+
+
+
+.facavisita h1{
+  font-family: 'josefin sans', sans-serif;
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.facavisita h2{
+  font-family: 'josefin sans', sans-serif;
+  font-size: 35px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 10px;
+  font-style: italic;
+  color: #B97700;
+  margin-bottom: 100px;
+}
+
+
+.horarios, .endereco{
+  display: flex;
+  flex-direction: row;
+  align-items:flex-start;
+  gap: 55px;
+  font-family: 'josefin sans', sans-serif;
+  margin-bottom: 100px;
+
+}
+
+.horarios{
+  margin-right: 100px;
+}
+
+.texto-hora{
+  margin-top: 5px;
+}
+
+.relogio{
+  width: 35px;
+  height: 35px;
+  margin-top: 5px;
+}
+
+.endereco p {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.local-icon{
+  width: 30px;
+  height: 42.45px;  
+}
+
+/* bandeirolas */
+.bandeirolas img{
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/*Um pouquinho do Museu...*/
+
+.faixa.laranja {
+  background-color: #D08600;
+  width: 1346px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+  margin-left: 0; 
+  margin-right: auto;
+  margin-bottom: 180px;
+}
+
+.titulo-faixa{
+  font-family: 'josefin sans', sans-serif;
+  color: #ffffff;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 45px;
+}
+
+.text-obra{
+  font-family: 'josefin sans', sans-serif;
+  color: #000000;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 35px;
+  text-align:right ;
+  padding-right: 55px;
+  margin-bottom: 30px;
+}
+
+.text-zoologia{
+  font-family: 'josefin sans', sans-serif;
+  color: #000000;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 35px;
+  padding-left: 55px;
+  margin-top: 180px;
+  margin-bottom: 100px;
+}
+
+
+.muitomais{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.borboletas{
+ grid-column: 1/3;
+}
+
+.criancas-indigenas {
+  width:581.33px;
+  margin-right: 60px;
+}
+
+.museu-antigo img{
+  width: 1453px;
+  height: 451px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 85px;
+  border: 15px solid #B97700;
+}
+.nossa-historia h2{
+  font-family: 'josefin sans', sans-serif;
+  color: #B97700;
+  font-weight: 300;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.nossa-historia p{
+  text-align: justify;
+  font-family: 'Homenaje', sans-serif;
+  font-size: 35px;
+  margin-left: 335px;
+  margin-right: 335px;
+  margin-bottom: 250px;
+}
+
+
+/* footer */
+
+.frase-efeito h1{
+  font-family: 'josefin sans', sans-serif;
+  color: #B97700;
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 300;
+  font-size: 45px;
+}
+
+.frase-efeito p{
+  font-family: 'Homenaje', sans-serif;
+  color: #000000;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 250px;
+}
+
+
+.fundo-amarelo {
+  position: relative;  /* para referência do absoluto */
+  background-color: #FFD96A;
+  height: 350px;
+  padding-top: 40px;
+  padding-right: 60px;
+  padding-bottom: 40px;
+  padding-left: 0; /* tira o padding da esquerda pra imagem encostar */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* conteúdo alinhado à direita */
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.contato {
+  position: absolute;
+  bottom: 270px; /* fica acima do esboço que tem 250px de altura + margem */
+  left: 20px;    /* afastado da borda esquerda */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 2;    /* fica acima do esboço */
+  background: transparent; /* sem fundo para ficar clean */
+}
+
+.rede-social {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+}
+
+.rede-social img {
+  width: 28px;
+  height: 28px;
+}
+
+.logos-container {
+  display: flex;
+  align-items: center;
+  margin-right: 550px;
+  gap: 300px;
+}
+
+.esboco-museu {
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  height: 250px;
+  object-fit: contain;
+  margin: 0;  /* remove margens */
+  z-index: 1; /* garante que fique visível */
+}
+
+.logos-parceiros img {
+  height: 110px;
+  object-fit: contain;
+  margin-right: 270px;
+  margin-top: 150px; /* para alinhar visualmente na base, se precisar */
+}
+
+
+
+
+
+
+
+/*
 body, html {
   width: 100%;
   overflow-x: hidden;
@@ -39,11 +335,12 @@ body, html {
 }
 
 
-/*Entrada*/
+
 section {
     font-family: 'Josefin Sans', sans-serif;
     padding: 40px 20px;
 }
+
 
 h2 {
     font-size: 110px;
@@ -67,18 +364,9 @@ h2 {
   max-width: 50%;
 }
 
-p, address {
-    font-size: 48px;
-    text-align: center;
-    clear: both;
-}
 
-.bandeirolas {
-    margin-bottom: 80px;
-    width: 100vw;
-    top: 0;
-    right: 0;
-}
+
+
 
 .conheca-museu {
     text-align: center;
@@ -100,7 +388,7 @@ p, address {
     padding-bottom: 80px;
 }
 
-/* FUNDO AMARELO*/
+--FUNDO AMARELO
 .fundo-amarelo {
   background-color: #FFDD6D;
   padding: 40px;
@@ -175,13 +463,16 @@ p, address {
     padding-left: 35px;
 }
 
+
+
+
 .logos-parceiros img:last-child {
     height: 300px;
     margin-bottom: -30px;
 }
-
 .rede-social a {
   text-decoration: none;
   color: inherit;
   display: block;
 }
+*/

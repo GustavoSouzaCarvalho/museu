@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Museu Municipal Francisco Coelho</title>
+    <link href="https://fonts.googleapis.com/css2?family=Homenaje&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Homenaje&family=Josefin+Sans:wght@400;700&display=swap">
     <link rel="stylesheet" href="CSS/css_index/header_index.css">
     <link rel="stylesheet" href="CSS/css_index/galeria_index.css">
@@ -12,11 +13,13 @@
 <body>
     <header>
         <nav>
+            <div class="logomenu">
+                <img src="ASSETS/Icones/logo do museu preto.png" alt="Logo">
+           </div>
             <ul>
                 <li class="selecionado"> <a href="index.html">PÁGINA INICIAL</a></li>
                 <li>EVENTOS</li>
-                <li>CONHEÇA O MUSEU</li>
-                <li><a href="HTML/alas.html">ALAS DO MUSEU</a></li>
+                <li>EXPONHA SUA ARTE</li>
             </ul>
         </nav>
         
@@ -24,63 +27,106 @@
             <img src="ASSETS/principal/museu.png" alt="Imagem do Museu">
         </div>
         
-        <div class="logo-container">
-            <img src="ICON/logo-branca-do-museu.png" alt="Logo do Museu">
-            <p>@museumaraba</p>
-        </div>
-
         <div class="titles">
             <h1>MUSEU MUNICIPAL FRANCISCO COELHO</h1>
-            <h1>artistas locais e muito mais</h1>
+            <h3>SALAS DO MUSEU</h3>
+            <p>Explore cada ala e descubra as riquezas do MMFC</p>
         </div>
     </header>
 
     <main>
 
-        <div class="galeria-container">
-            <div class="galeria-item item-aves">
-                <img src="ASSETS/principal/aves.png" alt="Esculturas de aves penduradas no teto do museu.">
-            </div>
-            <div class="galeria-item item-casa-flutuante">
-                <img src="ASSETS/principal/casa-flutuante.png" alt="Xilogravura de um barco a vapor antigo em um rio.">
-            </div>
-            <div class="galeria-item item-insetos">
-                <img src="ASSETS/principal/insetos.png" alt="Coleção de insetos, incluindo borboletas e besouros, em um display.">
-            </div>
-            <div class="galeria-item item-utensilios">
-                <img src="ASSETS/principal/utensilios-kids.png" alt="Crianças indígenas e cestos de palha em exibição no museu.">
-            </div>
-            <div class="galeria-item item-araras">
-                <img src="ASSETS/principal/araras-azuis.png" alt="Pintura de duas araras-azuis abraçadas.">
-            </div>
+        <div class="menu">
+            <div class="sala">
+                <p>Marcos Regionais</p>
+                <img src="ASSETS/alas/marcos.png" alt="Marcos"></div>
+            <div class="sala">
+                <p>Pinturas</p>
+                <img src="ASSETS/alas/Pinturas.png" alt="Pinturas"></div>
+            <div class="sala">
+                <p>Ciclos</p>
+                <img src="ASSETS/alas/Ciclos.png" alt="Ciclos"></div>
+            <div class="sala">
+                <p>Minérios e Geologia</p>
+                <img src="ASSETS/alas/Minérios e Geologia.png" alt="Minérios e Geologia"></div>
+            <div class="logo">
+                <img src="ASSETS/alas/logo do museu.png" alt="Logo" class="sem-efeito"></div>
+            <div class="sala">
+                <p>Lendas</p>
+                <img src="ASSETS/alas/Lendas.png" alt="Lendas"></div>
+            <div class="sala">
+                <p>Arqueologia</p>
+                <img src="ASSETS/alas/Arqueologia.png" alt="Arqueologia"></div>
+            <div class="sala">
+                <p>Zoologia</p>
+                <img src="ASSETS/alas/Zoologia.png" alt="Zoologia"></div>
+            <div class="sala">
+                <p>Etnologia Indígena</p>
+                <img src="ASSETS/alas/Etnologia Indígena.png" alt="Etnologia Indígena"></div>
+        
         </div>
+        
+        <section class="facavisita">
+            <h1>faça-nos uma visita</h1>
+            <h2>entrada gratuita!</h2>
 
-        <section class="artistas-locais">
-            <div class="faixa laranja">
-                <h3>Algumas obras de artistas locais</h3>
+            <div class="data-local">
+            <div class="horarios">
+                <img src="ASSETS/Icones/relógio.png" class="relogio" alt="">
+             <div class="texto-hora">
+                 <p>Terça a Sexta: 09h às 17h </p>
+                 <p>Terça a Sexta: 09h às 17h </p>
+             </div>
+             </div>
+             <div class="endereco">
+                <img src="ASSETS/Icones/localização.png" class="local-icon" alt="">
+             <div class="texto-local">
+                 <p>R. Cinco de Abril - Velha Marabá, Marabá - PA</p>
+             </div>
+             </div>
             </div>
+            <div class="bandeirolas"><img src="ASSETS/principal/bandeirolas.png" alt=""></div>
+        </section>
 
+        <section class="amostraMuseu">
+            <div class="faixa laranja">
+                <h3 class="titulo-faixa">Um pouquinho do Museu...</h3>
+            </div>
+            <p class="text-obra">Algumas obras de artistas locais</p>
             <img src="ASSETS/principal/rural.png" alt="Obras de artistas locais">
+            <p class="text-zoologia">Zoologia, cultura e muito mais...</p>
 
+            <div class="muitomais">
+                <div class="borboletas"> <img src="ASSETS/principal/borboletas.png" alt="borboletas"></div>
+                <div class="araras"><img src="ASSETS/principal/araras artesanato.png" alt="araras artesanato"></div>
+                <div class="criancas-indigenas"><img src="ASSETS/principal/crianças indígenas.png" alt="Crianças indígenas"></div>
+            </div>
+
+        </section>
+
+        <section class="nossa-historia">
             <div class="faixa laranja">
-                <h3>Venha nos fazer uma Visita</h3>
+                <h3 class="titulo-faixa">Nossa História</h3>
             </div>
-        </section>
-
-        <section>
-            <h2>A ENTRADA É GRATIS!</h2>
-            <div class="entrada-container">
-                <img id="entrada" src="ASSETS/principal/entrada.png" alt="">
+            <div class="museu-antigo">
+                <img id="museu" src="ASSETS/principal/Museu antigo.png" alt="">
             </div>
-            <p>Horário de funcionamento: Terça a Sexta feira, das 9:00hrs às 17:00hrs; Sábado e Domingo, das 9:00hrs às 13:00hrs</p>
-            <address>R. Cinco de Abril - Velha Marabá. Marabá - PA</address>
+            <h2>Onde a História de Marabá Começou</h2>
+            <p>Inaugurado em 08 de agosto de 2020 e localizado no núcleo histórico da cidade de Marabá, 
+                o Museu Municipal Francisco Coelho leva o nome do fundador da cidade, um comerciante 
+                maranhense de Barra do Corda que chegou à essa região no final do século XIX, por meio 
+                do comercio de gado, e em 1898 se instalou na faixa de terra entre rios Tocantins e Itacaiúnas,
+                onde implantou um ponto comercial chamado Casa Marabá, em homenagem à um poema de Gonçalves Dias.</p>
         </section>
+    </main>
 
-        <section class="conheca-museu">
-            <img class="bandeirolas" src="ASSETS/principal/bandeirolas.png" alt="Decoração de bandeirolas">
-            <h2>CONHEÇA O MUSEU</h2>
-            <p class="descricao">Mais do que lazer: um espaço de conhecimento, cultura, memória e encontro para toda a família!</p>
-            
+    <footer>
+        <section class="final">
+         <div class="frase-efeito"> 
+             <h1>MUSEU MUNICIPAL FRANCISCO COELHO </h1>
+             <p>Mais do que lazer: um espaço de conhecimento, cultura, memória e encontro para toda a família!</p>
+         </div>
+       
             <div class="fundo-amarelo">
                 <div class="contato">
                     <div class="rede-social">
@@ -97,12 +143,10 @@
                     <img class="esboco-museu" src="ASSETS/rodape/esboço-museu.png" alt="Esboço do Museu">
                     <div class="logos-parceiros">
                         <img src="ASSETS/rodape/casa-da-cultura.png" alt="Casa da Cultura">
-                        <img class="SBM" src="ASSETS/rodape/SBM.png" alt="Sistema Brasileiro de Museus">
-                        <img class="ministerio-da-cultura" src="ASSETS/rodape/ministerio-da-cultura.png" alt="Ministério da Cultura">
                     </div>
                 </div>
             </div>
         </section>
-    </main>
+   </footer>
 </body>
 </html>
