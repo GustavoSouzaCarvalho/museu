@@ -1,0 +1,301 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 1.5;
+}
+
+.section-title {
+  font-family: 'Holtwood One SC', serif;
+  font-size: 104px;
+  font-weight: bold;
+  background-color: #d57c00;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  margin-top: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+.museum-title {
+  color: #d57c00;
+  font-size: 3.5em;
+  font-weight: bold;
+  padding-bottom: 40px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.intro-text {
+  font-family: 'Homenaje', sans-serif;
+  text-align: center;
+  padding-top: 50px;
+  margin: 10px;
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+.legends-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap; 
+  padding: 20px;
+  width: 100%
+}
+
+.legend-img-left {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 20px;
+  height: auto;
+  flex-shrink: 0;
+  margin-left: 50px;
+}
+
+.legend-title {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 98px;
+  color: #c76f00;
+  max-width: 500px;
+  text-align: left;
+  flex-direction: column;
+  display: flex;
+  flex-grow: 1;
+  min-width: 300px;
+  max-width: 100%;
+  word-break: normal;
+  gap: 5px;
+}
+
+.legend-title span {
+  display: block;
+}
+
+.legends-section,
+.legend-feature,
+.other-legends {
+  padding: 15px;
+  text-align: center;
+}
+
+.legend-img {
+  width: 90%;
+  max-width: 300px;
+  margin: 10px auto;
+  display: block;
+}
+
+.legend-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.legend-texto-maior {
+    flex: 1;
+    min-width: 300px;
+    max-width: none;
+    width: 100%;
+    padding-right: 20px;
+}
+
+.paragrafo-grande {
+    font-family: 'Homenaje', sans-serif;
+    font-size: 40px;
+    text-align: justify;
+    margin-top: 40px;
+    line-height: 1.6;
+    max-width: 600px;
+    width: 100%;
+}
+
+.legend-img-direita {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+    margin-right: 150px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.paragrafo-menor {
+    font-family: 'Homenaje', sans-serif;
+    font-size: 40px;
+    text-align: justify;
+    margin-top: 120px;
+    line-height: 1.5;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.legend-feature h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #c76f00;
+  font-size: 80px;
+  line-height: 1.1;
+  margin-top: 120px;
+}
+
+.legend-feature .h2-line {
+    display: block;
+}
+
+.legend-feature h3 {
+  font-family: 'Homenaje', sans-serif;
+  color: #D08600;
+  font-size: 36px;
+  font-weight: normal;
+  margin: 30px 0 80px;
+}
+
+.legend-feature p {
+  text-align: justify;
+  margin: 10px auto;
+}
+
+.other-legends h3 span {
+  display: block;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #c28300;
+  text-align: center;
+  font-size: 46px;
+  line-height: 0.4;
+  line-height: 1;     
+  margin: 0;
+}
+
+.other-legends h3 span:first-child {
+  margin-top: 60px; 
+}
+
+.other-legends h3 span:last-child {
+  margin-bottom: 60px;  
+}
+
+.legends-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+
+.legend-card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.legend-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.legends-destaque {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 60px;
+    margin: 60px auto 80px;
+    max-width: 1000px;
+    flex-wrap: wrap;
+}
+
+.card-nego,
+.card-boto {
+  text-align: center;
+  width: 45%;
+}
+
+.card-nego img,
+.card-boto img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.card-nego {
+  margin-top: 0;
+}
+
+.card-boto {
+  margin-top: 80px; 
+}
+
+.card-nego p,
+.card-boto p {
+  margin-top: 15px;
+  font-size: 44px;
+  font-family: 'Homenaje', sans-serif;
+  color: #c28300;
+}
+
+.legend-saci-h2 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  max-width: 2000px;
+  margin: 0 auto 60px;
+  padding: 0 20px;
+}
+
+.legend-card-saci img {
+ margin-top: 60px;
+  width: 600px;
+  height: auto;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.legend-saci-h2 h2 span {
+  display: block;
+}
+
+.legend-saci-h2 h2 {
+  font-family: 'Homenaje', sans-serif;
+  font-size: 122px;
+  color: #B97700;
+  text-align: left;
+  line-height: 1.2;
+  margin: 0;
+  flex: 1; 
+}
+
+.convite {
+  text-align: center;
+  padding: 30px 10px;
+}
+
+.convite h2 {
+  font-family: 'Homenaje', sans-serif;
+  font-size: 5.2em;
+  margin: 15px 0;
+}
+
+.chamada-visita {
+  margin-top: 40px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2.5rem;
+  color: #d57c00;
+  font-weight: bold;
+}
