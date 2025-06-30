@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio - Exponha sua Arte</title>
+    <title>Exponha sua Arte - Sobre a Obra</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;700&family=Homenaje&family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../../CSS/css_portifolio/main_portifolio.css"> 
     <link rel="stylesheet" href="../../CSS/css_expor_arte/header_expor_arte.css"> 
+    <link rel="stylesheet" href="../../CSS/css_cadastro_arte/main_cadastro_arte.css"> 
 </head>
 <body>
 
@@ -24,29 +24,51 @@
     </header>
 
     <div class="page-title-container">
-        <a href="./expor_arte.html"><img src="../../ICON/seta-branca.png" alt="Seta" class="seta-img"></a>
-        <h1>Tenha a sua arte exposta no museu!</h1>
+        <a href="portifolio.html"> <img src="../../ICON/seta-branca.png" alt="Seta para voltar" class="seta-img">
+        </a>
+        <h1>TENHA A SUA ARTE EXPOSTA NO MUSEU!</h1>
         <p>@museumaraba</p>
     </div>
 
     <main>
         <div class="form-container">
-            <h2>Portifólio</h2>
+            <h2>Sobre a Obra</h2>
             <p class="subtitle">Preencha com os dados</p>
 
-            <form action="./cadastro_arte.html" method="get"> 
-                <input type="url" placeholder="Rede social (link)" required>
-                <input type="url" placeholder="Portifólio (link)" required>
-                <input type="text" placeholder="A quanto tempo você atua como artista independente?" required>
-                <input type="text" placeholder="Já participou de outras exposições? Quais?" required>
-                <textarea placeholder="Como você se define enquanto artista (texto curto)" required></textarea>
+            <form action="#" method="POST">
+                <input type="text" placeholder="Título da obra ou da série" required>
                 
-                <button type="submit" class="botao-proximo">PRÓXIMO</button>
+                <textarea placeholder="Descrição da(s) obra(s) (Data de criação, Dimensões da obra, Técnica utilizada, Qual mensagem a obra quer passar?)" required></textarea>
+                
+                <input type="text" placeholder="A obra estaria à venda? Se sim, qual valor?" required>
+                <input type="text" placeholder="A obra precisa de algum suporte especial para exposição? (Ex: Pedestal, Iluminação, Tomada etc.)" required>
+                <input type="text" placeholder="A obra é de fácil transporte e montagem? Explique brevemente" required>
+                
+                <div class="input-com-icone">
+                    <input type="url" placeholder="Amostra da obra (Link)" required>
+                </div>
+                
+                <div class="separador"></div>
+
+                <h2 class="section-title">Termos e Condições</h2>
+
+                <div class="checkbox-group">
+                    <input type="checkbox" id="autorizacao_uso" required>
+                    <label for="autorizacao_uso">Autorizo o uso da obra para fins de divulgação da exposição</label>
+                </div>
+                
+                <div class="checkbox-group">
+                    <input type="checkbox" id="disponibilidade_obra" required>
+                    <label for="disponibilidade_obra">Estou ciente de que, em caso de seleção, a obra deverá estar disponível no período da exposição</label>
+                </div>
+                
+                <button type="submit">ENVIAR</button>
             </form>
 
             <p class="info-final">Analisaremos os seus dados e entraremos em contato assim que possível!</p>
         </div>
     </main>
+
     <div class="fundo-amarelo">
         <div class="contato">
             <div class="rede-social">
@@ -68,5 +90,6 @@
             </div>
         </div>
     </div>
+
 </body>
 </html>
