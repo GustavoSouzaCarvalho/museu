@@ -1,0 +1,100 @@
+.fundo-branco {
+  background-color: #ffffff;
+  padding: 40px;
+  width: 100vw;
+  position: relative;
+  min-height: 400px;
+  overflow: hidden;
+}
+
+.contato {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rede-social {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.rede-social p {
+    font-family: 'Homenaje', sans-serif;
+    font-size: 28px;
+    margin: 0;
+}
+
+.rede-social img {
+  height: 30px;
+}
+
+.logos-container {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: flex-end;
+    padding: 0;
+}
+
+.esboco-museu {
+    height: 300px;
+    left: 0;
+    bottom: 0;
+}
+
+.logos-parceiros {
+    display: flex;
+    gap: 50px; 
+    align-items: flex-end;
+    height: 175px;
+    flex-grow: 1; 
+    justify-content: flex-start;
+}
+
+.logos-parceiros img {
+    object-fit: contain;
+    height: auto;
+}
+
+.logos-parceiros img:first-child { 
+    height: 175px;
+}
+
+.logos-parceiros img:nth-child(2) { 
+    height: 80px;
+    margin-bottom: 50px;
+    padding-left: 35px;
+}
+
+.logos-parceiros img:last-child {
+    height: 300px;
+    margin-bottom: -30px;
+}
+
+.rede-social a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+footer {
+ text-align: center;
+  padding: 20px 10px;
+  background-color: white;
+}
+
+footer .logos img {
+  width: 70px;
+  margin: 5px;
+}
+
+footer .contato p {
+  font-size: 0.9em;
+  margin: 3px;
+}

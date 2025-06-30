@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #000;
+}
+
+.section-title {
+  font-family: 'Holtwood One SC', serif;
+  font-size: 64px;
+  font-weight: bold;
+  background-color: #d57c00;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  margin-top: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+.museum-title {
+  color: #d57c00;
+  font-size: 3.5em;
+  font-weight: bold;
+  padding-bottom: 40px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.conteudo p {
+  font-family: 'Homenaje', sans-serif;
+  font-size: 1.9rem;
+  padding: 40px;
+  text-align: center;
+}
+
+.museu-nome {
+  color: #bf7100;
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+.etnologia-container {
+  font-family: 'Homenaje', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.texto-etnologia {
+  margin: 40px auto 20px -90px;
+  font-size: 1.6rem;
+  flex: 1 1 600px;
+  text-align: justify;
+}
+
+.texto-etnologia h3 {
+  text-align: center;
+  font-size: 1.6em;
+  margin-bottom: 15px;
+}
+
+.texto-etnologia p {
+  text-align: justify;
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+.descricao-cabaca {
+  flex: 1 1 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.descricao-cabaca img {
+  border-radius: 20px;
+  width: 350px;
+  margin-bottom: 5px;
+}
+
+.descricao-cabaca p {
+  font-size: 1.6em;
+  line-height: 1.5;
+}
+
+.artefatos {
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  margin: -40px auto 40px 60px;
+  flex-wrap: wrap;
+  max-width: 1000px;
+}
+
+.artefato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.artefato img {
+    border-radius: 20px;
+  width: 250px;
+  height: auto;
+  border: 1px solid #ccc;
+}
+
+.artefato p {
+  margin-top: 2px;
+  font-size: 01.8em;
+}
+
+.convite {
+  text-align: center;
+  padding: 30px 10px;
+}
+
+.convite img {
+  margin-top: 90px;
+  margin-bottom: 40px;
+  width: 90%;
+  max-width: 900px;
+  margin-bottom: 10px;
+}
+
+.convite h2 {
+  font-family: 'Homenaje', sans-serif;
+  font-size: 5.9em;
+  margin: 15px 0;
+}
+
+.chamada-visita {
+  margin-top: 40px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2.3rem;
+  color: #d57c00;
+  font-weight: bold;
+}
