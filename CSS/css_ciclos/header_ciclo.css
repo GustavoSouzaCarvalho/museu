@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px 0;
+    list-style: none;
+    font-family: 'Homenaje', sans-serif;
+    font-size: 48px;
+    margin: 0;
+    width: 100%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.selecionado {
+    color: #B97700;
+}
+
+.evento-image{
+    height: 547;
+}
+
+.imagem-entrada-evento img {
+    width: 100%;
+    height: 638px;
+    object-fit: cover;
+    margin-bottom: 40px;
+}
+
+
+.museum-title{
+    font-family: 'josefin sans', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 50px;
+    color: #B97700;
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+
+.section-title {
+  font-family: 'Holtwood One SC', serif;
+  font-size: 104px;
+  font-weight: bold;
+  background-color: #d57c00;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  margin-top: 5px;
+  width: 100%;
+  text-align: center;
+}
