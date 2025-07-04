@@ -1,12 +1,11 @@
-.fundo-branco {
-  background-color: #FFFFFF;
+
+.fundo-branco{
+  background-color: #ffffff;
   padding: 40px;
-  width: 100%;
-  box-sizing: border-box; 
+  width: 100vw;
   position: relative;
   min-height: 400px;
   overflow: hidden;
-  margin-top: 80px;
 }
 
 .contato {

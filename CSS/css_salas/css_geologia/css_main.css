@@ -1,0 +1,87 @@
+* {
+  overflow-x: hidden; 
+}
+
+
+.arqueologo-text h1{
+  text-align: center;
+  font-family: 'Homenaje', sans-serif;
+  font-size: 65px;
+  margin-top: 150px;
+  margin-bottom: 35px;
+  color: #D08600;
+}
+
+.arqueologo-text img {
+  max-width: 450px;
+  display: block;
+  margin: 0 auto;
+}
+
+.arqueologo-text p, .mergulho p{
+    margin: 30px 425px;
+    font-size: 30px;
+    color: black;
+    text-align: justify;
+    font-family: 'Homenaje', sans-serif;
+}
+
+.minerio_main img{
+    display: block;
+    margin: 0 auto;
+    margin: 50px auto;
+    max-width: 350px;
+    border-radius: 15px;
+}
+
+.mergulho h1{
+  text-align: center;
+  font-family: 'Homenaje', sans-serif;
+  font-size: 65px;
+  margin-top: 150px;
+  margin-bottom: 35px;
+  color: #000000;
+}
+
+.mergulho img{
+    display: block;
+    margin: 0 auto;
+    margin: 50px auto;
+    max-width: 350px;
+    border-radius: 15px;
+
+}
+
+
+.alguns_minerios{
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 95px 10px;
+  padding: 20px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 100px auto;
+}
+
+.alguns_minerios img{
+    max-width: 200px;
+}
+
+.alguns_minerios p{
+  text-align: center;
+  font-family: 'Homenaje', sans-serif;
+  font-size: 20px;
+  margin-top: 15px;
+  color: #000000;
+
+}
+
+.final p{
+  font-family: 'josefin sans', sans-serif;
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin: 100px 490px 300px;
+}
