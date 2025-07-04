@@ -1,0 +1,349 @@
+.title-band {
+    background-color: #B97700;
+    height: 189px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+
+.arqueologia-title {
+    font-family: 'Holtwood One SC', serif;
+    font-size: 98px;
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+.content-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
+    justify-items: center;
+    text-align: center;
+}
+
+.content-subtitle {
+    font-family: 'Spartan', sans-serif;
+    font-size: 44px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.content-text {
+    font-family: 'Spartan', sans-serif;
+    font-size: 42px;
+    color: #333;
+    line-height: 1.4;
+    margin: 0;
+}
+
+/*Ceramicas*/
+.ceramicas-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 60px 20px; 
+    gap: 60px;
+    margin: 40px auto;
+    max-width: 1600px; 
+    border-radius: 20px;
+}
+
+.ceramica-item-top,
+.ceramica-item-bottom {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    max-width: 1400px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.ceramica-item-top {
+    flex-direction: row; 
+}
+
+.ceramica-item-bottom {
+    flex-direction: row; 
+}
+
+.ceramica-img-top,
+.ceramica-img-bottom {
+    border-radius: 10px;
+    object-fit: cover;
+    flex-shrink: 0;
+    width: 45%;
+    max-width: 860px;
+    height: auto;
+}
+
+.ceramica-text-top,
+.ceramica-text-bottom {
+    font-family: 'Spartan', sans-serif;
+    font-size: 64px; 
+    font-weight: 700;
+    color: #333;
+    line-height: 1.2;
+    text-align: left;
+    flex-grow: 1;
+}
+
+.sitio-section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.sitio-titulo {
+  font-family: 'Spartan', sans-serif;
+  font-size: 64px;
+  color: #000000;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 40px;
+}
+
+.sitio-conteudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sitio-img {
+  margin-top: 40px;
+  max-width: 90%;
+  height: auto;
+  border-radius: 40px;
+}
+
+.fragmentos-section {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.fragmentos-titulo {
+  font-family: 'Spartan', sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 80px;
+}
+
+.fragmentos-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+}
+
+.fragmento-item {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: center;
+}
+
+.fragmento-item.esquerda {
+  flex-direction: row;
+}
+
+.fragmento-item.direita {
+  flex-direction: row-reverse;
+}
+
+.fragmento-item.ntados-bloco {
+  flex-direction: row;
+}
+
+.texto-coluna {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Spartan', sans-serif;
+  font-size: 66px;
+  font-weight: 700;
+  color: #B97700;
+  line-height: 1.1;
+}
+
+.fragme-img {
+  width: 508px;
+  height: 608px;
+  object-fit: cover;
+  margin-left: -300px;
+}
+
+.ntados-img {
+  width: 502px;
+  height: 608px;
+  object-fit: cover;
+  margin-right: -300px;
+}
+
+.laminas-section {
+    margin: 80px auto;
+    max-width: 1200px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.laminas-title {
+    font-family: 'Spartan', sans-serif;
+    font-size: 64px;
+    font-weight: bold;
+    margin-bottom: 60px;
+    color: #333;
+}
+
+.laminas-container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.mais-fragmentos {
+    width: 500px;
+    height: 700px;
+    border-radius: 406px;
+    object-fit: cover;
+    margin-top: 80px;
+}
+
+.pontas-laminas {
+    width: 505px;
+    height: 705px;
+    border-radius: 346px;
+    object-fit: cover;
+}
+
+.visita-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 20px;
+    gap: 40px;
+    margin: 40px auto; 
+    max-width: 1600px; 
+    border-radius: 20px; 
+    text-align: center; 
+}
+
+.fragmentos-desc-text {
+    font-family: 'Spartan', sans-serif;
+    font-size: 64px; 
+    font-weight: 700; 
+    color: #333; 
+    line-height: 1.2;
+    margin: 0;
+    max-width: 1200px; 
+}
+
+.descricao-fragmentos-img {
+    width: 100%;
+    max-width: 845px;
+    height: auto;
+    border-radius: 70px; 
+}
+
+.visita-call-to-action {
+    font-family: 'Spartan', sans-serif;
+    font-size: 64px;
+    font-weight: 700; 
+    color: #B97700; 
+    line-height: 1.2;
+    margin: 0;
+    max-width: 1200px; 
+}
+
+/*Fundo Branco*/
+.fundo-branco {
+  background-color: #FFFFFF;
+  padding: 40px;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  min-height: 400px;
+  overflow: hidden;
+  margin-top: 80px;
+}
+
+.contato {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rede-social {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.rede-social p {
+    font-family: 'Homenaje', sans-serif;
+    font-size: 28px;
+    margin: 0;
+}
+
+.rede-social img {
+  height: 30px;
+}
+
+.logos-container {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: flex-end;
+    padding: 0;
+}
+
+.esboco-museu {
+    height: 300px;
+    left: 0;
+    bottom: 0;
+}
+
+.logos-parceiros {
+    display: flex;
+    gap: 50px; 
+    align-items: flex-end;
+    height: 175px;
+    flex-grow: 1; 
+    justify-content: flex-start;
+}
+
+.logos-parceiros img {
+    object-fit: contain;
+    height: auto;
+}
+
+.logos-parceiros img:first-child { 
+    height: 175px;
+}
+
+.logos-parceiros img:nth-child(2) { 
+    height: 80px;
+    margin-bottom: 50px;
+    padding-left: 35px;
+}
+
+.logos-parceiros img:last-child {
+    height: 300px;
+    margin-bottom: -30px;
+}
+
+.rede-social a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}

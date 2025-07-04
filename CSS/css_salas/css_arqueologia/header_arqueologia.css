@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px 0;
+  list-style: none;
+  font-family: 'Homenaje', sans-serif;
+  font-size: 48px;
+  margin: 0;
+  width: 100%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.selecionado {
+  color: #B97700;
+}
+
+.arqueologia-container {
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.arqueologia-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.nome-museu {
+    font-size: 48px;
+    white-space: nowrap;
+    font-family: 'Spartan', sans-serif;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    text-align: center;
+    padding: 0 20px; 
+    box-sizing: border-box;
+    margin-top: 65px;
+    color:#B97700;
+}
