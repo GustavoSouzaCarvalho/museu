@@ -1,0 +1,104 @@
+* {
+  overflow-x: hidden; 
+}
+
+.container p{
+    font-family: 'Homenaje', sans-serif;
+    font-size: 25px;
+    text-align: justify;
+}
+
+p span {
+  display: block;
+  font-size: 30px;
+}
+
+.trilho1{
+    margin-top: 200px;
+    margin-left: 160px;
+}
+
+.trilho2{
+    margin-left: -150px;
+}
+
+.trilho3{
+    margin-left: -40px; 
+}
+
+
+.linha {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 250px;
+}
+
+.linha p {
+  width: 50%;
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+.linha img{
+    max-width: 250px;
+}
+
+
+.casamaraba{
+    transform: translateX(-100px); 
+}
+
+.criacao{
+    transform: translateX(-20px); 
+}
+
+.enchente{
+    transform: translateX(-130px);    
+}
+.castanha{
+    transform: translateX(90px);    
+}
+.mercado{
+    transform: translateX(-50px);
+}
+.areporto{
+    transform: translateX(-30px);
+}
+.palacete{
+    transform: translateX(-20px);
+}
+
+.visita{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 250px;
+}
+
+.visita img{
+    max-width:500px;
+    border-radius: 50px;
+   
+}
+
+h2 span {
+    margin-right:700px;
+    display: block;
+    font-size: 45px;
+    font-family: 'Homenaje', sans-serif;
+}
+
+.fonte_grande{
+    font-family:'josefin sans', sans-serif;
+    font-size: 80px;
+    font-weight: 300;
+}
+
+.trilhofinal{
+    margin-bottom: 100px;
+}
+
+.fonte_amarela{
+    color: #B97700;
+}
