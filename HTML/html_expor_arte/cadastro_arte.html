@@ -8,8 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;700&family=Homenaje&family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../../CSS/css_expor_arte/header_expor_arte.css"> 
-    <link rel="stylesheet" href="../../CSS/css_cadastro_arte/main_cadastro_arte.css"> 
+    <link rel="stylesheet" href="../../CSS/css_expor_arte/header_expor_arte.css">
+    <link rel="stylesheet" href="../../CSS/css_cadastro_arte/main_cadastro_arte.css">
 </head>
 <body>
 
@@ -35,33 +35,33 @@
             <h2>Sobre a Obra</h2>
             <p class="subtitle">Preencha com os dados</p>
 
-            <form action="#" method="POST">
-                <input type="text" placeholder="Título da obra ou da série" required>
-                
-                <textarea placeholder="Descrição da(s) obra(s) (Data de criação, Dimensões da obra, Técnica utilizada, Qual mensagem a obra quer passar?)" required></textarea>
-                
-                <input type="text" placeholder="A obra estaria à venda? Se sim, qual valor?" required>
-                <input type="text" placeholder="A obra precisa de algum suporte especial para exposição? (Ex: Pedestal, Iluminação, Tomada etc.)" required>
-                <input type="text" placeholder="A obra é de fácil transporte e montagem? Explique brevemente" required>
-                
+            <form id="obraForm" action="" method="POST">
+                <input type="text" name="tituloObra" placeholder="Título da obra ou da série" required>
+
+                <textarea name="descricaoObra" placeholder="Descrição da(s) obra(s) (Data de criação, Dimensões da obra, Técnica utilizada, Qual mensagem a obra quer passar?)" required></textarea>
+
+                <input type="text" name="obraAVenda" placeholder="A obra estaria à venda? Se sim, qual valor?" required>
+                <input type="text" name="suporteEspecial" placeholder="A obra precisa de algum suporte especial para exposição? (Ex: Pedestal, Iluminação, Tomada etc.)" required>
+                <input type="text" name="transporteMontagem" placeholder="A obra é de fácil transporte e montagem? Explique brevemente" required>
+
                 <div class="input-com-icone">
-                    <input type="url" placeholder="Amostra da obra (Link)" required>
+                    <input type="url" name="amostraObraLink" placeholder="Amostra da obra (Link)" required>
                 </div>
-                
+
                 <div class="separador"></div>
 
                 <h2 class="section-title">Termos e Condições</h2>
 
                 <div class="checkbox-group">
-                    <input type="checkbox" id="autorizacao_uso" required>
+                    <input type="checkbox" id="autorizacao_uso" name="autorizacaoUso" required>
                     <label for="autorizacao_uso">Autorizo o uso da obra para fins de divulgação da exposição</label>
                 </div>
-                
+
                 <div class="checkbox-group">
-                    <input type="checkbox" id="disponibilidade_obra" required>
+                    <input type="checkbox" id="disponibilidade_obra" name="disponibilidadeObra" required>
                     <label for="disponibilidade_obra">Estou ciente de que, em caso de seleção, a obra deverá estar disponível no período da exposição</label>
                 </div>
-                
+
                 <button type="submit">ENVIAR</button>
             </form>
 
@@ -91,5 +91,19 @@
         </div>
     </div>
 
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const form = document.getElementById('obraForm');
+            const urlParams = new URLSearchParams(window.location.search);
+            const artistId = urlParams.get('artistId');
+
+            if (artistId) {
+                form.action = `http://localhost:3000/submit-obra?artistId=${artistId}`;
+            } else {
+                console.error('Artist ID não encontrado na URL. Redirecionando para a página inicial do formulário.');
+                alert('Ocorreu um erro. Por favor, comece o cadastro novamente.');
+            }
+        });
+    </script>
 </body>
 </html>

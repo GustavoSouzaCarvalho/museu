@@ -8,8 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;700&family=Homenaje&family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../../CSS/css_portifolio/main_portifolio.css"> 
-    <link rel="stylesheet" href="../../CSS/css_expor_arte/header_expor_arte.css"> 
+    <link rel="stylesheet" href="../../CSS/css_portifolio/main_portifolio.css">
+    <link rel="stylesheet" href="../../CSS/css_expor_arte/header_expor_arte.css">
 </head>
 <body>
 
@@ -34,13 +34,13 @@
             <h2>Portifólio</h2>
             <p class="subtitle">Preencha com os dados</p>
 
-            <form action="./cadastro_arte.html" method="get"> 
-                <input type="url" placeholder="Rede social (link)" required>
-                <input type="url" placeholder="Portifólio (link)" required>
-                <input type="text" placeholder="A quanto tempo você atua como artista independente?" required>
-                <input type="text" placeholder="Já participou de outras exposições? Quais?" required>
-                <textarea placeholder="Como você se define enquanto artista (texto curto)" required></textarea>
-                
+            <form id="portfolioForm" action="" method="POST">
+                <input type="url" name="redeSocial" placeholder="Rede social (link)" required>
+                <input type="url" name="portfolioLink" placeholder="Portifólio (link)" required>
+                <input type="text" name="tempoAtuacao" placeholder="A quanto tempo você atua como artista independente?" required>
+                <input type="text" name="exposicoesAnteriores" placeholder="Já participou de outras exposições? Quais?" required>
+                <textarea name="definicaoArtista" placeholder="Como você se define enquanto artista (texto curto)" required></textarea>
+
                 <button type="submit" class="botao-proximo">PRÓXIMO</button>
             </form>
 
@@ -68,5 +68,21 @@
             </div>
         </div>
     </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const form = document.getElementById('portfolioForm');
+            const urlParams = new URLSearchParams(window.location.search);
+            const artistId = urlParams.get('artistId');
+
+            if (artistId) {
+                form.action = `http://localhost:3000/submit-portifolio?artistId=${artistId}`;
+            } else {
+
+                console.error('Artist ID não encontrado na URL. Redirecionando para a página inicial do formulário.');
+                alert('Ocorreu um erro. Por favor, comece o cadastro novamente.');
+            }
+        });
+    </script>
 </body>
 </html>

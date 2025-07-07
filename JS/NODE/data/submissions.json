@@ -1,0 +1,92 @@
+[
+  {
+    "artistId": "eb79da00-a5cf-4a83-8427-3234148f6a59",
+    "timestampCreated": "2025-07-07T14:03:37.112Z",
+    "informacoes": {
+      "nomeCompleto": "Gustavo Hugo",
+      "cpf": "0123456789",
+      "cep": "1235487",
+      "endereco": "DCEDCJDCSJEK",
+      "telefone": "65416326254",
+      "email": "erh6t@klnrvgr.fdr"
+    },
+    "portifolio": {
+      "redeSocial": "http://localhost:3000/HTML/html_expor_arte/portifolio.html",
+      "portfolioLink": "http://localhost:3000/HTML/html_expor_arte/portifolio.html",
+      "tempoAtuacao": "wecescs",
+      "exposicoesAnteriores": "awecera",
+      "definicaoArtista": "uhugnjgkjg"
+    },
+    "lastUpdated": "2025-07-07T14:04:02.474Z",
+    "sobre_obra": {
+      "tituloObra": "secvweved",
+      "descricaoObra": "ykgbykfk",
+      "obraAVenda": "swevesrv",
+      "suporteEspecial": "saefcewaveaw",
+      "transporteMontagem": "wevsvrsvrd",
+      "amostraObraLink": "http://localhost:3000/HTML/html_expor_arte/cadastro_arte.html",
+      "autorizacaoUso": "on",
+      "disponibilidadeObra": "on"
+    }
+  },
+  {
+    "artistId": "2d7b272c-e555-428f-ac19-8e63a59c2eb0",
+    "timestampCreated": "2025-07-07T14:05:28.465Z",
+    "informacoes": {
+      "nomeCompleto": "Jonatan Torres",
+      "cpf": "6516456254",
+      "cep": "456368465",
+      "endereco": "dhnaerikhg",
+      "telefone": "24863468",
+      "email": "eedfe@dde.cefe"
+    },
+    "portifolio": {
+      "redeSocial": "http://localhost:3000/HTML/html_expor_arte/portifolio.html",
+      "portfolioLink": "http://localhost:3000/HTML/html_expor_arte/portifolio.html",
+      "tempoAtuacao": "sjdnvjkbds",
+      "exposicoesAnteriores": ",sdnvk.jbasekv",
+      "definicaoArtista": "jsrnvjkrsb"
+    },
+    "lastUpdated": "2025-07-07T14:06:17.744Z",
+    "sobre_obra": {
+      "tituloObra": "secvweved",
+      "descricaoObra": "ewjnfckjebsjf",
+      "obraAVenda": "kjerbjyvrgba",
+      "suporteEspecial": "askjenfiluewba",
+      "transporteMontagem": "ewhbacjewgfc",
+      "amostraObraLink": "http://localhost:3000/HTML/html_expor_arte/cadastro_arte.html",
+      "autorizacaoUso": "on",
+      "disponibilidadeObra": "on"
+    }
+  },
+  {
+    "artistId": "ef4a5307-bfd9-4c0d-ae10-a607677ed597",
+    "timestampCreated": "2025-07-07T14:45:19.443Z",
+    "informacoes": {
+      "nomeCompleto": "Viviane Garcia",
+      "cpf": "468418",
+      "cep": "6428643684",
+      "endereco": "rtddrtfgg",
+      "telefone": "1862282688",
+      "email": "cscws@gvcs.com"
+    },
+    "portifolio": {
+      "redeSocial": "http://localhost:3000/HTML/html_expor_arte/portifolio.html?artistId=ef4a5307-bfd9-4c0d-ae10-a607677ed597",
+      "portfolioLink": "http://localhost:3000/HTML/html_expor_arte/portifolio.html?artistId=ef4a5307-bfd9-4c0d-ae10-a607677ed597",
+      "tempoAtuacao": "sevreagvre",
+      "exposicoesAnteriores": "avraegds",
+      "definicaoArtista": "fgnjgfku"
+    },
+    "lastUpdated": "2025-07-07T14:46:48.453Z",
+    "sobre_obra": {
+      "tituloObra": "klrguehgwui",
+      "descricaoObra": "akjwefleabf",
+      "obraAVenda": "wemfiorejuhn",
+      "suporteEspecial": "awkjefnkjabre",
+      "transporteMontagem": "ernviugreui",
+      "amostraObraLink": "http://localhost:3000/HTML/html_expor_arte/portifolio.html?artistId=ef4a5307-bfd9-4c0d-ae10-a607677ed597",
+      "autorizacaoUso": "on",
+      "disponibilidadeObra": "on"
+    }
+  }
+]
