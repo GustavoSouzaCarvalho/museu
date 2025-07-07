@@ -88,5 +88,35 @@
       "autorizacaoUso": "on",
       "disponibilidadeObra": "on"
     }
+  },
+  {
+    "artistId": "66b10fbb-48dd-4727-9cc0-3591e1e0c872",
+    "timestampCreated": "2025-07-07T21:49:59.767Z",
+    "informacoes": {
+      "nomeCompleto": "joao lucas",
+      "cpf": "00000000000",
+      "cep": "000000000",
+      "endereco": "lalalalala",
+      "telefone": "4002-8922",
+      "email": "lallalalal@oi"
+    },
+    "portifolio": {
+      "redeSocial": "https://www.youtube.com/",
+      "portfolioLink": "https://www.youtube.com/",
+      "tempoAtuacao": "nasci artista",
+      "exposicoesAnteriores": "não ",
+      "definicaoArtista": "sei lá"
+    },
+    "lastUpdated": "2025-07-07T21:51:57.765Z",
+    "sobre_obra": {
+      "tituloObra": "aaaaa",
+      "descricaoObra": "aaaaaaaaaaa",
+      "obraAVenda": "aaaaaaaaaaaa",
+      "suporteEspecial": "aaaaaaaaaaa",
+      "transporteMontagem": "aaaaaaaaa",
+      "amostraObraLink": "https://www.youtube.com/",
+      "autorizacaoUso": "on",
+      "disponibilidadeObra": "on"
+    }
   }
 ]
