@@ -150,5 +150,19 @@
             </div>
         </div>
    </footer>
+ <script>
+window.addEventListener('DOMContentLoaded', () => {
+    const params = new URLSearchParams(window.location.search);
+    console.log('URL completa:', window.location.href);
+    console.log('success param:', params.get('success'));
+
+    if (params.get('success') === 'true') {
+        alert('✅ Formulário enviado com sucesso!');
+
+        window.history.replaceState({}, document.title, window.location.pathname);
+    }
+});
+</script>
+
 </body>
 </html>

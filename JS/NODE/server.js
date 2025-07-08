@@ -142,7 +142,7 @@ app.post('/submit-obra', async (req, res) => {
 
     try {
         await saveOrUpdateSubmission(submission);
-        res.redirect('/index.html');
+            res.status(302).set('Location', '/index.html?success=true').end();
     } catch (error) {
         console.error('Erro ao processar formulário da Obra:', error);
         res.status(500).send('Erro ao enviar formulário da obra.');

@@ -92,17 +92,18 @@
     </div>
 
     <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const form = document.getElementById('obraForm');
-            const urlParams = new URLSearchParams(window.location.search);
-            const artistId = urlParams.get('artistId');
+      document.addEventListener('DOMContentLoaded', () => {
+    const form = document.getElementById('obraForm');
+    const urlParams = new URLSearchParams(window.location.search);
+    const artistId = urlParams.get('artistId');
 
-            if (artistId) {
-                form.action = `http://localhost:3000/submit-obra?artistId=${artistId}`;
-            } else {
-                console.error('Artist ID não encontrado na URL. Redirecionando para a página inicial do formulário.');
-                alert('Ocorreu um erro. Por favor, comece o cadastro novamente.');
-            }
+    if (artistId) {
+        form.action = `/submit-obra?artistId=${artistId}`;
+    } else {
+        console.error('Artist ID não encontrado na URL. Redirecionando para a página inicial do formulário.');
+        alert('Ocorreu um erro. Por favor, comece o cadastro novamente.');
+        window.location.href = '/HTML/html_expor_arte/portifolio.html';
+    }
         });
     </script>
 </body>
