@@ -48,15 +48,10 @@ nav ul li a {
 }
 
 .nome-museu {
-    font-size: 48px;
-    white-space: nowrap;
-    font-family: 'Spartan', sans-serif;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    width: 100%;
+    font-family: 'josefin sans', sans-serif;
     text-align: center;
-    padding: 0 20px; 
-    box-sizing: border-box;
-    margin-top: 65px;
-    color:#B97700;
+    font-size: 3.1rem;
+    color: #B97700;
+    margin-top: 100px;
+    margin-bottom: 10px
 }
