@@ -27,6 +27,7 @@ body {
 }
 
 .museum-title {
+  text-align: center;
   color: #d57c00;
   font-size: 3.5em;
   font-weight: bold;
