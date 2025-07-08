@@ -19,7 +19,7 @@
     "express": "^4.18.2",
     "fs": "latest",
     "json2csv": "^5.0.7",
-    "nodemailer": "^6.9.8",
+    "nodemailer": "^6.10.1",
     "uuid": "^11.1.0",
     "validator": "^13.15.15"
   },

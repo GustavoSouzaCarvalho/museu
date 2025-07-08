@@ -118,5 +118,265 @@
       "autorizacaoUso": "on",
       "disponibilidadeObra": "on"
     }
+  },
+  {
+    "artistId": "38ec938a-137c-4f9c-b0d3-e921862c60ef",
+    "timestampCreated": "2025-07-08T12:13:51.261Z",
+    "informacoes": {
+      "nomeCompleto": "Noa",
+      "cpf": "85426848",
+      "cep": "51688826834",
+      "endereco": "aergvdrhts",
+      "telefone": "4652434",
+      "email": "gusttavoo5080@gmail.com"
+    },
+    "portifolio": {
+      "redeSocial": "http://localhost:3000/HTML/html_expor_arte/portifolio.html?artistId=f01a6c65-7b6d-4adf-9424-8cb06d1bf00f",
+      "portfolioLink": "http://localhost:3000/HTML/html_expor_arte/portifolio.html?artistId=f01a6c65-7b6d-4adf-9424-8cb06d1bf00f",
+      "tempoAtuacao": "\\dfvdrht",
+      "exposicoesAnteriores": "envksdnz",
+      "definicaoArtista": "dsvfdhfjy"
+    },
+    "lastUpdated": "2025-07-08T12:14:27.631Z",
+    "sobre_obra": {
+      "tituloObra": "sdgdhyf",
+      "descricaoObra": "sdgbdxgfx",
+      "obraAVenda": "fdgfjghjy",
+      "suporteEspecial": "s\\dgdftd",
+      "transporteMontagem": "sdfdrzzbhtdgf",
+      "amostraObraLink": "http://localhost:3000/HTML/html_expor_arte/cadastro_arte.html?artistId=38ec938a-137c-4f9c-b0d3-e921862c60ef",
+      "autorizacaoUso": "on",
+      "disponibilidadeObra": "on"
+    }
+  },
+  {
+    "artistId": "b8b7ca8c-84f4-4435-aa47-8068b1fd56a9",
+    "timestampCreated": "2025-07-08T12:57:31.939Z",
+    "informacoes": {
+      "nomeCompleto": "Nélio Bem Fica",
+      "cpf": "85426848",
+      "cep": "34062479684",
+      "endereco": "\\smcs\\b",
+      "telefone": "4652434",
+      "email": "gusttavoo5080@unifesspa.edu.br"
+    },
+    "portifolio": {
+      "redeSocial": "http://localhost:3000/HTML/html_expor_arte/portifolio.html?artistId=f01a6c65-7b6d-4adf-9424-8cb06d1bf00f",
+      "portfolioLink": "http://localhost:3000/HTML/html_expor_arte/portifolio.html?artistId=f01a6c65-7b6d-4adf-9424-8cb06d1bf00f",
+      "tempoAtuacao": "\\dfvdrht",
+      "exposicoesAnteriores": "envksdnz",
+      "definicaoArtista": "senkjhe\\kjbfk\\e"
+    },
+    "lastUpdated": "2025-07-08T13:00:50.470Z",
+    "sobre_obra": {
+      "tituloObra": "sdgdhyf",
+      "descricaoObra": "ascn\\ndcl,en\\j",
+      "obraAVenda": "fdgfjghjy",
+      "suporteEspecial": "s\\dgdftd",
+      "transporteMontagem": "sdfdrzzbhtdgf",
+      "amostraObraLink": "http://localhost:3000/HTML/html_expor_arte/cadastro_arte.html?artistId=38ec938a-137c-4f9c-b0d3-e921862c60ef",
+      "autorizacaoUso": "on",
+      "disponibilidadeObra": "on"
+    }
+  },
+  {
+    "artistId": "f9fb662e-ac32-4b9f-83bd-18ec36ab3337",
+    "timestampCreated": "2025-07-08T13:05:57.075Z",
+    "informacoes": {
+      "nomeCompleto": "Garcia H",
+      "cpf": "43515314534",
+      "cep": "6146543545",
+      "endereco": "asjbcjsba",
+      "telefone": "654351248",
+      "email": "gusttavoo5080@unifesspa.edu.br"
+    },
+    "portifolio": {
+      "redeSocial": "http://localhost:3000/HTML/html_expor_arte/portifolio.html?artistId=f9fb662e-ac32-4b9f-83bd-18ec36ab3337",
+      "portfolioLink": "http://localhost:3000/HTML/html_expor_arte/portifolio.html?artistId=f9fb662e-ac32-4b9f-83bd-18ec36ab3337",
+      "tempoAtuacao": "dsc\\scved",
+      "exposicoesAnteriores": "\\snkcjk\\n",
+      "definicaoArtista": "slkcn\\n"
+    },
+    "lastUpdated": "2025-07-08T13:08:13.408Z",
+    "sobre_obra": {
+      "tituloObra": "\\snc,j\\",
+      "descricaoObra": "\\abjcjk\\b",
+      "obraAVenda": "\\a.kcnk\\s",
+      "suporteEspecial": "\\a,cnj\\b",
+      "transporteMontagem": "\\aksncjkbes",
+      "amostraObraLink": "http://localhost:3000/HTML/html_expor_arte/portifolio.html?artistId=f9fb662e-ac32-4b9f-83bd-18ec36ab3337",
+      "autorizacaoUso": "on",
+      "disponibilidadeObra": "on"
+    }
+  },
+  {
+    "artistId": "eead1e92-bca8-4506-a8d4-951a0ad54b81",
+    "timestampCreated": "2025-07-08T13:14:29.115Z",
+    "informacoes": {
+      "nomeCompleto": "Garcia H",
+      "cpf": "43515314534",
+      "cep": "6146543545",
+      "endereco": "asjbcjsba",
+      "telefone": "6426874864",
+      "email": "gusttavoo5080@unifesspa.edu.br"
+    },
+    "portifolio": {
+      "redeSocial": "http://localhost:3000/HTML/html_expor_arte/portifolio.html?artistId=f9fb662e-ac32-4b9f-83bd-18ec36ab3337",
+      "portfolioLink": "http://localhost:3000/HTML/html_expor_arte/portifolio.html?artistId=f9fb662e-ac32-4b9f-83bd-18ec36ab3337",
+      "tempoAtuacao": "dsc\\scved",
+      "exposicoesAnteriores": "\\snkcjk\\n",
+      "definicaoArtista": "54632248534"
+    },
+    "lastUpdated": "2025-07-08T13:14:35.836Z"
+  },
+  {
+    "artistId": "c9e3775c-40f6-4a85-bdd2-0f6e96189971",
+    "timestampCreated": "2025-07-08T13:22:10.264Z",
+    "informacoes": {
+      "nomeCompleto": "Garcia H",
+      "cpf": "43515314534",
+      "cep": "6146543545",
+      "endereco": "asjbcjsba",
+      "telefone": "6426874864",
+      "email": "gusttavoo5080@unifesspa.edu.br"
+    },
+    "portifolio": {
+      "redeSocial": "http://localhost:3000/HTML/html_expor_arte/portifolio.html?artistId=f9fb662e-ac32-4b9f-83bd-18ec36ab3337",
+      "portfolioLink": "http://localhost:3000/HTML/html_expor_arte/portifolio.html?artistId=f9fb662e-ac32-4b9f-83bd-18ec36ab3337",
+      "tempoAtuacao": "dsc\\scved",
+      "exposicoesAnteriores": "\\snkcjk\\n",
+      "definicaoArtista": "sdcnlewjncs"
+    },
+    "lastUpdated": "2025-07-08T13:22:27.985Z",
+    "sobre_obra": {
+      "tituloObra": "\\snc,j\\",
+      "descricaoObra": "s,dmbnckjsb\\",
+      "obraAVenda": "\\a.kcnk\\s",
+      "suporteEspecial": "\\a,cnj\\b",
+      "transporteMontagem": "\\aksncjkbes",
+      "amostraObraLink": "http://localhost:3000/HTML/html_expor_arte/portifolio.html?artistId=f9fb662e-ac32-4b9f-83bd-18ec36ab3337",
+      "autorizacaoUso": "on",
+      "disponibilidadeObra": "on"
+    }
+  },
+  {
+    "artistId": "c4883836-7559-4e4b-9a5b-e5409ab16d72",
+    "timestampCreated": "2025-07-08T13:33:46.935Z",
+    "informacoes": {
+      "nomeCompleto": "Hugo Dias",
+      "cpf": "43515314534",
+      "cep": "6146543545",
+      "endereco": "asjbcjsba",
+      "telefone": "6426874864",
+      "email": "gusttavoo5080@unifesspa.edu.br"
+    },
+    "portifolio": {
+      "redeSocial": "http://localhost:3000/HTML/html_expor_arte/portifolio.html?artistId=f9fb662e-ac32-4b9f-83bd-18ec36ab3337",
+      "portfolioLink": "http://localhost:3000/HTML/html_expor_arte/portifolio.html?artistId=f9fb662e-ac32-4b9f-83bd-18ec36ab3337",
+      "tempoAtuacao": "dsc\\scved",
+      "exposicoesAnteriores": "\\snkcjk\\n",
+      "definicaoArtista": "lknzskjvnkjz"
+    },
+    "lastUpdated": "2025-07-08T13:34:10.182Z",
+    "sobre_obra": {
+      "tituloObra": "\\snc,j\\",
+      "descricaoObra": "jhvghvhgvh",
+      "obraAVenda": "\\a.kcnk\\s",
+      "suporteEspecial": "\\a,cnj\\b",
+      "transporteMontagem": "\\aksncjkbes",
+      "amostraObraLink": "http://localhost:3000/HTML/html_expor_arte/portifolio.html?artistId=f9fb662e-ac32-4b9f-83bd-18ec36ab3337",
+      "autorizacaoUso": "on",
+      "disponibilidadeObra": "on"
+    }
+  },
+  {
+    "artistId": "76af5517-a2dc-4437-82f0-c95d97a0e0c8",
+    "timestampCreated": "2025-07-08T13:41:52.528Z",
+    "informacoes": {
+      "nomeCompleto": "Vitor Pereira",
+      "cpf": "43515314534",
+      "cep": "6146543545",
+      "endereco": "asjbcjsba",
+      "telefone": "6426874864",
+      "email": "gusttavoo5080@unifesspa.edu.br"
+    },
+    "portifolio": {
+      "redeSocial": "http://localhost:3000/HTML/html_expor_arte/portifolio.html?artistId=f9fb662e-ac32-4b9f-83bd-18ec36ab3337",
+      "portfolioLink": "http://localhost:3000/HTML/html_expor_arte/portifolio.html?artistId=f9fb662e-ac32-4b9f-83bd-18ec36ab3337",
+      "tempoAtuacao": "dsc\\scved",
+      "exposicoesAnteriores": "\\snkcjk\\n",
+      "definicaoArtista": "kjnsjgnkjrdnz"
+    },
+    "lastUpdated": "2025-07-08T13:42:07.804Z",
+    "sobre_obra": {
+      "tituloObra": "\\snc,j\\",
+      "descricaoObra": "sa,mcnkjeku",
+      "obraAVenda": "\\a.kcnk\\s",
+      "suporteEspecial": "\\a,cnj\\b",
+      "transporteMontagem": "\\aksncjkbes",
+      "amostraObraLink": "http://localhost:3000/HTML/html_expor_arte/portifolio.html?artistId=f9fb662e-ac32-4b9f-83bd-18ec36ab3337",
+      "autorizacaoUso": "on",
+      "disponibilidadeObra": "on"
+    }
+  },
+  {
+    "artistId": "b8f5a00d-0495-43bd-9d01-f2605cc30106",
+    "timestampCreated": "2025-07-08T13:48:26.501Z",
+    "informacoes": {
+      "nomeCompleto": "Vitor Pereira Gomes",
+      "cpf": "43515314534",
+      "cep": "6146543545",
+      "endereco": "asjbcjsba",
+      "telefone": "6426874864",
+      "email": "gusttavoo5080@unifesspa.edu.br"
+    },
+    "portifolio": {
+      "redeSocial": "http://localhost:3000/HTML/html_expor_arte/portifolio.html?artistId=f9fb662e-ac32-4b9f-83bd-18ec36ab3337",
+      "portfolioLink": "http://localhost:3000/HTML/html_expor_arte/portifolio.html?artistId=f9fb662e-ac32-4b9f-83bd-18ec36ab3337",
+      "tempoAtuacao": "dsc\\scved",
+      "exposicoesAnteriores": "\\snkcjk\\n",
+      "definicaoArtista": "dsvnkjsnjd"
+    },
+    "lastUpdated": "2025-07-08T13:48:49.222Z",
+    "sobre_obra": {
+      "tituloObra": "\\snc,j\\",
+      "descricaoObra": "skdnvsnzn",
+      "obraAVenda": "\\a.kcnk\\s",
+      "suporteEspecial": "\\a,cnj\\b",
+      "transporteMontagem": "\\aksncjkbes",
+      "amostraObraLink": "http://localhost:3000/HTML/html_expor_arte/portifolio.html?artistId=f9fb662e-ac32-4b9f-83bd-18ec36ab3337",
+      "autorizacaoUso": "on",
+      "disponibilidadeObra": "on"
+    }
+  },
+  {
+    "artistId": "2dfe0a62-9fa4-4830-ac06-90ab8ae19b69",
+    "timestampCreated": "2025-07-08T13:59:13.170Z",
+    "informacoes": {
+      "nomeCompleto": "Hugo Dias",
+      "cpf": "43515314534",
+      "cep": "6146543545",
+      "endereco": "asjbcjsba",
+      "telefone": "6426874864",
+      "email": "gusttavoo5080@unifesspa.edu.br"
+    },
+    "portifolio": {
+      "redeSocial": "http://localhost:3000/HTML/html_expor_arte/portifolio.html?artistId=f9fb662e-ac32-4b9f-83bd-18ec36ab3337",
+      "portfolioLink": "http://localhost:3000/HTML/html_expor_arte/portifolio.html?artistId=f9fb662e-ac32-4b9f-83bd-18ec36ab3337",
+      "tempoAtuacao": "dsc\\scved",
+      "exposicoesAnteriores": "\\snkcjk\\n",
+      "definicaoArtista": "jfncesekjnf"
+    },
+    "lastUpdated": "2025-07-08T13:59:51.015Z",
+    "sobre_obra": {
+      "tituloObra": "sdmvcs,n\\j",
+      "descricaoObra": "awlkncla\\n",
+      "obraAVenda": "alkcli\\en",
+      "suporteEspecial": "a,knckj\\ne",
+      "transporteMontagem": "a\\.kcmlk\\n",
+      "amostraObraLink": "http://localhost:3000/HTML/html_expor_arte/portifolio.html?artistId=f9fb662e-ac32-4b9f-83bd-18ec36ab3337",
+      "autorizacaoUso": "on",
+      "disponibilidadeObra": "on"
+    }
   }
 ]
