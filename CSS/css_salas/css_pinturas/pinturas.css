@@ -5,6 +5,7 @@
 }
 
 body {
+  overflow-x: hidden;
   font-family: Arial, sans-serif;
   line-height: 1.5;
   background-color: #fff;

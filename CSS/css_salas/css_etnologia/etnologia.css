@@ -5,6 +5,7 @@
 }
 
 body {
+  overflow-x: hidden;
   font-family: Arial, sans-serif;
   line-height: 1.6;
   background-color: #fff;
@@ -25,6 +26,7 @@ body {
 }
 
 .museum-title {
+  text-align: center;
   color: #d57c00;
   font-size: 3.5em;
   font-weight: bold;
