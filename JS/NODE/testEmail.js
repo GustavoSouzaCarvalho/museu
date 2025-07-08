@@ -13,7 +13,6 @@ const __dirname = path.dirname(__filename);
 const DATA_DIR = path.join(__dirname, 'data');
 const SUBMISSIONS_FILE = path.join(DATA_DIR, 'submissions.json');
 
-// Função para carregar os dados (similar ao server.js)
 async function loadSubmissions() {
     try {
         await fs.access(SUBMISSIONS_FILE);
@@ -25,9 +24,8 @@ async function loadSubmissions() {
     }
 }
 
-// Função principal de teste
+// Teste
 async function testEmailSystem() {
-    // 1. Configuração do transporter (igual ao server.js)
     const transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
@@ -39,7 +37,6 @@ async function testEmailSystem() {
         }
     });
 
-    // 2. Carrega os dados existentes
     const submissions = await loadSubmissions();
     
     if (submissions.length === 0) {
@@ -47,11 +44,9 @@ async function testEmailSystem() {
         return;
     }
 
-    // 3. Pega o último artista cadastrado
     const testArtist = submissions[submissions.length - 1];
     console.log('🔄 Testando com artista:', testArtist.artistId);
 
-    // 4. Prepara o e-mail de teste
     const mailOptions = {
         from: process.env.EMAIL_USER,
         to: process.env.EMAIL_MUSEUM,
@@ -68,7 +63,7 @@ async function testEmailSystem() {
         }]
     };
 
-    // 5. Envia o e-mail
+    // Envia o e-mail
     try {
         const info = await transporter.sendMail(mailOptions);
         console.log('✅ E-mail de teste enviado com sucesso!');
@@ -78,5 +73,4 @@ async function testEmailSystem() {
     }
 }
 
-// Executa o teste
 testEmailSystem().catch(console.error);

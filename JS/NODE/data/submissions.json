@@ -378,5 +378,35 @@
       "autorizacaoUso": "on",
       "disponibilidadeObra": "on"
     }
+  },
+  {
+    "artistId": "d43ad40d-e96a-42e4-bdc0-91e3ff8e61fb",
+    "timestampCreated": "2025-07-08T14:36:37.951Z",
+    "informacoes": {
+      "nomeCompleto": "Vitor Pereira Gomes",
+      "cpf": "43515314534",
+      "cep": "6146543545",
+      "endereco": "asjbcjsba",
+      "telefone": "6426874864",
+      "email": "gusttavoo5080@unifesspa.edu.br"
+    },
+    "portifolio": {
+      "redeSocial": "http://localhost:3000/HTML/html_expor_arte/portifolio.html?artistId=f9fb662e-ac32-4b9f-83bd-18ec36ab3337",
+      "portfolioLink": "http://localhost:3000/HTML/html_expor_arte/portifolio.html?artistId=f9fb662e-ac32-4b9f-83bd-18ec36ab3337",
+      "tempoAtuacao": "dsc\\scved",
+      "exposicoesAnteriores": "\\snkcjk\\n",
+      "definicaoArtista": "sdcmlk\\ncjkeb\\"
+    },
+    "lastUpdated": "2025-07-08T14:37:00.892Z",
+    "sobre_obra": {
+      "tituloObra": "sdmvcs,n\\j",
+      "descricaoObra": "\\svkdnkb\\",
+      "obraAVenda": "alkcli\\en",
+      "suporteEspecial": "a,knckj\\ne",
+      "transporteMontagem": "a\\.kcmlk\\n",
+      "amostraObraLink": "http://localhost:3000/HTML/html_expor_arte/portifolio.html?artistId=f9fb662e-ac32-4b9f-83bd-18ec36ab3337",
+      "autorizacaoUso": "on",
+      "disponibilidadeObra": "on"
+    }
   }
 ]

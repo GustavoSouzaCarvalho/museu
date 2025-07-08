@@ -29,7 +29,7 @@ const DATA_DIR = path.join(__dirname, 'data');
 const SUBMISSIONS_FILE = path.join(DATA_DIR, 'submissions.json');
 
 app.use(cors({
-  origin: 'http://localhost:3000', // Ou seu domínio front-end
+  origin: 'http://localhost:3000',
   credentials: true
 }));
 app.use(bodyParser.json());
@@ -176,7 +176,7 @@ app.post('/submit-obra', async (req, res) => {
 
 
 
-// Função para enviar e-mail (adicione junto com as outras funções)
+// Função para enviar e-mail
 async function sendArtistEmail(artistId) {
     console.log("🔍 Iniciando envio de email para artistId:", artistId);
     try {
@@ -189,7 +189,7 @@ async function sendArtistEmail(artistId) {
             return false;
         }
 
-        // Verifica a conexão SMTP primeiro
+        // Verifica a conexão SMTP
         console.log("✔️ Dados do artista encontrados:", artistData.informacoes.nomeCompleto);
         console.log("✔️ Verificando conexão SMTP...");
         await new Promise((resolve, reject) => {
@@ -224,7 +224,7 @@ async function sendArtistEmail(artistId) {
         await transporter.sendMail(museumMail);
         console.log(`📩 E-mail enviado para o museu (Artista ID: ${artistId})`);
 
-        // 2. Envia email para o artista
+        // Envia email para o artista
         const artistMail = {
             from: process.env.EMAIL_USER,
             to: artistData.informacoes.email,
