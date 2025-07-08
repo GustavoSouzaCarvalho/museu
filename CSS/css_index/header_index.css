@@ -7,15 +7,15 @@ nav {
 }
 
 nav ul {
-    position:absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    gap: 350px;
-    list-style: none;
-    font-family: 'Homenaje', sans-serif;
-    font-size: 25px;
+  position:absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  gap: 350px;
+  list-style: none;
+  font-family: 'Homenaje', sans-serif;
+  font-size: 25px;
 }
 
 nav ul li a {
