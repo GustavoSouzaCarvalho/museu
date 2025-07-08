@@ -24,23 +24,9 @@ nav ul li a {
   display: block;
 }
 
-.logomenu {
-  position: absolute;
-  left: 20px;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.logomenu img {
-  width: 42px;
-  height: 38px;
-}
-
-
 .selecionado {
     color: #B97700;
 }
-
 
 .carrossel {
   position: relative;

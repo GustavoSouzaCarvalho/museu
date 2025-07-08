@@ -13,27 +13,28 @@ html, body {
 
 .artista-local h2 {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 54px;
+    font-weight: 300;
+    font-size: 50px;
     color: #B97700;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
 }
 
 .artista-local p {
     font-family: 'Homenaje', sans-serif;
-    font-size: 41px;
+    font-size: 30px;
     color: #000000;
     margin-bottom: 60px;
     line-height: 1.2;
 }
 
 .btn-expor {
-    width: 504px;
-    height: 84px;
+    width: 404px;
+    height: 40px;
     background-color: #D08600;
     border-radius: 53px;
     border: none;
     font-family: 'Homenaje', sans-serif;
-    font-size: 50px;
+    font-size: 35px;
     color: #FFFFFF;
     cursor: pointer;
     transition: background-color 0.3s;

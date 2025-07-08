@@ -1,6 +1,6 @@
 /* Faixa Dourada */
 .titulo-retangulo-faixa {
-    height: 103px;
+    height: 70px;
     background-color: #D08600;
     display: flex;
     justify-content: center;
@@ -11,7 +11,8 @@
 
 .titulo-retangulo-faixa h1 {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 64px;
+    font-size: 30px;
+    font-weight: 300;
     color: #FFFFFF;
     margin: 0;
     text-transform: uppercase;

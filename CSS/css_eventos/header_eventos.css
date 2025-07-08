@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+nav {
+  position: relative;
+  height: 50px; 
+  white-space: nowrap;
+
+}
 
 header {
     display: flex;
@@ -11,15 +17,15 @@ header {
 }
 
 nav ul {
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     display: flex;
-    justify-content: center;
-    gap: 40px;
-    padding: 20px 0;
+    gap: 350px;
     list-style: none;
     font-family: 'Homenaje', sans-serif;
-    font-size: 48px;
-    margin: 0;
-    width: 100%;
+    font-size: 25px;
 }
 
 nav ul li a {
