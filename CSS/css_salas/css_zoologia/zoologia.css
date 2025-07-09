@@ -27,11 +27,12 @@ body {
 
 .museum-title {
   color: #d57c00;
-  font-size: 3.5em;
+  font-size: 3.1rem;
   font-weight: bold;
   padding-bottom: 40px;
   font-family: 'Josefin Sans', sans-serif;
   text-align: center;
+  
 }
 
 .imagem-com-sobreposicao {
